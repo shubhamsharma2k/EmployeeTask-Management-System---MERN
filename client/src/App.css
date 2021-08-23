@@ -1,0 +1,53 @@
+body {
+  background-color: #fff7fc;
+}
+
+.modalContainer {
+  height: 300px;
+  width: 200px;
+}
+
+.table {
+  border-collapse: separate !important;
+}
+
+.th-id {
+  min-width: 50px;
+  border-radius: 20px !important;
+  text-align: center;
+}
+
+.th-resources {
+  min-width: auto;
+  text-align: center;
+  border-radius: 20px !important;
+}
+
+.resources {
+  border-radius: 20px !important;
+}
+
+.th-date {
+  min-width: 250px;
+  text-align: center;
+  border-radius: 20px !important;
+}
+
+td {
+  height: 100px;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px 10px 10px 20px;
+  color: #a40c77;
+}
+
+.drp-down {
+  background-color: #fff2fb !important;
+}
+
+.dropdown-toggle {
+  color: white !important;
+}
