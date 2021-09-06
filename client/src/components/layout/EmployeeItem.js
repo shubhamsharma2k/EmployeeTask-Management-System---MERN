@@ -1,6 +1,6 @@
 import React from "react";
 import Moment from "react-moment";
-import EditTaskPopup from "./EditTaskPopup";
+import EditTaskPopup from "./popups/EditTaskPopup";
 import date from "date-and-time";
 
 const EmployeeItem = ({ employee, employees }) => {

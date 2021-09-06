@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
-import { newResource } from "../../utils/dataFetching";
+import { newResource } from "../../../utils/dataFetching";
 
 const NewResourcePopup = () => {
   const [resource, setResource] = useState({
@@ -28,9 +28,9 @@ const NewResourcePopup = () => {
 
   return (
     <React.Fragment>
-      <Button variant="primary" onClick={handleShow}>
+      <a variant="primary" className="btn btn-primary" onClick={handleShow}>
         New Resource
-      </Button>
+      </a>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header>

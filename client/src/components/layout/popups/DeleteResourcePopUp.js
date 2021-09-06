@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
-import { deleteResource } from "../../utils/dataFetching";
+import { deleteResource } from "../../../utils/dataFetching";
 
 const DeleteResourcePopUp = ({ employees }) => {
   const [resource, setResource] = useState({

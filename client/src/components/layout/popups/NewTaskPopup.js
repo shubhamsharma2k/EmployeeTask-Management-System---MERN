@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
-import { newTask } from "../../utils/dataFetching";
+import { newTask } from "../../../utils/dataFetching";
 
 const NewTaskPopup = ({ employees }) => {
   const [tasks, setTasks] = useState({
@@ -44,9 +44,9 @@ const NewTaskPopup = ({ employees }) => {
 
   return (
     <React.Fragment>
-      <Button variant="primary" onClick={handleShow}>
+      <a href="#" onClick={handleShow} className="link">
         AssignTask
-      </Button>
+      </a>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header>

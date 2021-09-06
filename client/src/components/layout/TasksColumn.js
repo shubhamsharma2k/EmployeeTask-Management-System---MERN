@@ -1,18 +1,8 @@
 import React, { useState, useEffect } from "react";
-import axios from "axios";
 import Moment from "react-moment";
-import EditTaskPopup from "./EditTaskPopup";
-import date from "date-and-time";
-import NewTaskPopup from "./NewTaskPopup";
+import EditTaskPopup from "./popups/EditTaskPopup";
 
-const Tasks = ({ employees, setEmployees }) => {
-  const list = [];
-  const now = new Date(2021, 7);
-  const companyShedule = 100;
-  for (let i = 0; i <= companyShedule; i++) {
-    var ans = date.addDays(now, i).toString();
-    list.push(ans);
-  }
+const Tasks = ({ employees, list }) => {
   return (
     <div>
       <table className="table table-borderless">

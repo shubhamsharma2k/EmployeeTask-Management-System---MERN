@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
-import { updateTaskById } from "../../utils/dataFetching";
-import { Link } from "react-router-dom";
+import { updateTaskById } from "../../../utils/dataFetching";
+
 const EditTaskPopup = ({ taskID }) => {
   const [tasks, setTasks] = useState({
     taskName: "",
